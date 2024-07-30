@@ -1,0 +1,459 @@
+#modal {
+    width: 1105px;
+    height: 695px;
+    background-image: url("./03-Bruce-Antique-Old-Paper-Background-by-SlidesCorner-1536x864.jpg");
+    background-size: cover;
+    position: relative;
+    margin: 0 auto;
+    
+  }
+          
+              #modal .title {
+                  background: #83570554;
+                  height: 85px;
+                  padding-top: 3px;
+                  color: #ffffff;
+                  
+                  text-align: center;
+              }
+              .mate-sc-regular {
+                font-family: "Mate SC", serif;
+                font-weight: 650;
+                font-size: 20px;
+                font-style: normal;
+                letter-spacing: 2px;
+                line-height: 10px
+              }
+              
+
+body {
+    background-color: rgb(231, 228, 221);
+
+    
+}
+
+html {height: 95vh;}
+.reclegend {
+    position: absolute;
+    z-index: 3;
+}
+.bg {opacity: 50%;
+    position: relative;
+    bottom: 930px;
+    z-index: 1;
+    }
+
+.img {
+ cursor: pointer;
+ filter: grayscale(40%);
+ position: relative;
+ left: 30%;
+ width: 44.28px;
+ z-index: 2;
+ height: 54.68px;
+ bottom: 78%
+}
+.img:hover {
+ filter: contrast(130%);
+
+   }
+.img1 {
+    cursor: pointer;
+    filter: grayscale(40%);
+    position: relative;
+    left: 33% ;
+    z-index: 2;
+    width: 44.28px;
+    height: 54.68px;
+    bottom: 71%
+   }
+.img1:hover {
+ filter: contrast(120%);}
+
+.img2 {
+    cursor: pointer;
+    filter: grayscale(40%);
+    position: relative;
+    left: 52% ;
+    z-index: 2;
+    width: 44.28px;
+    height: 54.68px;
+    bottom: 37%
+   }
+.img2:hover {
+    filter: contrast(120%);}
+.img3 {
+    cursor: pointer;
+    filter: grayscale(40%);
+    position: relative;
+    width: 44.28px;
+    z-index: 2;
+    height: 54.68px;
+    left: 57% ;
+    bottom: 70%
+   }
+.img3:hover {
+    filter: contrast(120%);}
+.img4 {
+    cursor: pointer;
+    filter: grayscale(40%);
+    width: 44.28px;
+    z-index: 2;
+    height: 54.68px;
+    position: relative;
+    left: 66%;
+    bottom: 87%
+   }
+.img4:hover {
+    filter: contrast(120%);}
+.img5 {
+    cursor: pointer;
+    filter: grayscale(40%);
+    position: relative;
+    left: 63% ;
+    top: -109%;
+    z-index: 2;
+    width: 44.28px;
+    height: 54.68px;
+   }
+.img5:hover {
+    filter: contrast(120%);}
+
+
+svg path {
+    fill: #c0e8f8;
+    stroke: #957979;
+    position: absolute;
+    z-index: 2;
+
+}
+
+svg path:hover{
+    fill: #c3faff;
+    transition: 0.7s;
+    transform: scale(1.01);
+    z-index: 2;
+}
+
+svg path:focus{
+    fill: #a1d0fc;
+    transition: 0.7s;
+    transform: scale(1.01);
+    z-index: 2;
+}
+
+
+.two {
+    fill: #e79a71;
+    position: absolute;
+    z-index: 3;
+    
+}
+.one {
+    fill: #ffc99e;
+    position: absolute;
+    z-index: 3;
+    
+
+}
+.three {
+    fill: #bc532d;
+    position: absolute;
+    z-index: 3;
+}
+.four {
+    fill:#4e2100;
+    position: absolute;
+    z-index: 3;
+}
+
+.circle {
+    fill:rgb(153, 12, 163);
+    stroke:rgb(0, 0, 0);
+    stroke-width: 1px;
+    position: absolute;
+    z-index: 3;
+    z-index: 2;
+    opacity: 0.4;
+
+}
+.circlelegend {
+    fill:rgba(255, 255, 255, 0);
+    stroke:rgb(0, 0, 0);
+    stroke-width: 2px;
+    position: absolute;
+    z-index: 3;
+    opacity: 0.4;
+    z-index: 2;
+
+}
+.circle:hover {
+    fill:rgb(232, 2, 249);
+    stroke:rgb(255, 0, 0);
+    stroke-width: 1px;
+    position: absolute;
+    z-index: 3;
+    opacity: 0.4;
+    
+    
+}
+
+
+.displayName {
+    width: 237px;
+    height: 80px;
+    background: #cfbfad00;
+    border-radius: 4px;
+    position: absolute;
+    z-index: 3;
+    top: 130px;
+    right: 30px;
+    text-align: center;
+    font: bold 14px/16px "Open Sans", Arial, sans-serif;
+    text-transform: uppercase;}
+    
+    .mate-sc-regular1 {
+        font-family: "Mate SC", serif;
+        font-weight: 650;
+        font-size: 20px;
+        letter-spacing: 2px;
+        line-height: 10px
+      }
+
+
+
+
+    .displayName {
+        font-size: 20px;
+        line-height: 25px;
+        
+        display: block;
+    }
+
+    .displayName { color: #763f71dc; }
+
+.density-container{
+    width: 210px;
+    height: 89px;
+    background: #424141;
+    border-radius: 4px;
+    position: absolute;
+    top: 210px;
+    
+    right: 30px;
+    align-items: center;
+    justify-content: center;
+   display: grid;
+    font: bold 9px/10px "Open Sans", Arial, sans-serif;
+    flex-direction: column;
+place-items: center;
+}
+
+
+
+    .displaydens {
+        font-size: 25px;
+        line-height: 2px;
+        margin-bottom: -30px;
+        /* display: block; */
+        color: #ff6a6a; }
+
+
+.density-container1{
+    width: 210px;
+    height: 120px;
+    background: #424141;
+    border-radius: 4px;
+    position: absolute;
+    top: 300px;
+    right: 30px;
+   
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    font: bold 9px/10px "Open Sans", Arial, sans-serif;
+    flex-direction: column;
+    place-items: center;
+}
+    
+    
+    
+        .displaydens1 {
+            font-size: 25px;
+            line-height: 2px;
+            margin-bottom: -30px;
+        
+            display: block;
+            
+        }
+    
+        .displaydens1 { color: #ff5b5b; }
+
+.description {
+    color: #ffffff;
+    font-size: 9px;
+    font-weight: 20;
+    text-align: center;
+    
+}
+
+
+
+.description1 {
+    color: #ffffff;
+    margin: 5px;
+    font-size: 9px;
+    font-weight: 20;
+    text-align: center;}
+
+
+.desimg {
+    color: #d1b584;
+    position: relative;
+    bottom: 630px;
+    font-size: 8px;
+    width: 290px;
+    left: 550px;
+    z-index: 1;
+    text-align: right;   
+
+}
+
+.desimg1 {
+    color: #9c845a;
+    position: relative;
+    bottom: 810px;
+    font-size: 6px;
+    width: 45px;
+    left: 340px;
+    z-index: 1;
+    } 
+
+.desimg2 {
+    color: #9c845a;
+    position: relative;
+    bottom: 715px;
+    font-size: 6px;
+    width: 45px;
+    left: 371px;
+    z-index: 1;} 
+
+.desimg3 {
+    color: #9c845a;
+    position: relative;
+    bottom: 612px;
+    font-size: 6px;
+    width: 45px;
+    left: 635px;
+    z-index: 1;} 
+
+.desimg4 {
+    color: #9c845a;
+    position: relative;
+    bottom: 684px;
+    width: 45px;
+    font-size: 6px;
+    left: 745px;
+    z-index: 1;} 
+
+.desimg5 {
+    color: #9c845a;
+    position: relative;
+    bottom: 792px;
+    font-size: 6px;
+    left: 700px;
+    width: 45px;
+    z-index: 1;} 
+
+.desimg6{
+    color: #9c845a;
+    position: relative;
+    bottom: 465px;
+    font-size: 6px;
+    left: 580px;
+    width: 45px;
+    z-index: 1;} 
+
+.mate-sc-regular2 {
+    font-family: "Mate SC", serif;
+    font-weight: 950;
+    font-size: 8px;
+    font-style: normal;
+    letter-spacing: 1px;
+    line-height: 10px
+  }
+
+.creditcontainer{
+        width: 210px;
+        height: 100px;
+        background: #f4f3d800;
+        border-radius: 1px;
+        position: absolute;
+        top: 610px;
+        left: 30px;
+        justify-content: center;
+        display: grid;
+        font: normal 9px/10px "Open Sans", Arial, sans-serif;
+        flex-direction: column;
+        place-items: center;
+    }
+.credit {
+    color: #99793a;
+    font-size: 9px;
+    font-weight: 200px;
+}
+
+.flourish {
+    width: 350px;
+    height: 1px;
+    background: #ffffff00;
+    border-radius: 4px;
+    position: absolute;
+    z-index: 2;
+    top: 100px;
+    left: 30px;
+
+
+}
+.legendtext {
+    bottom: 110%;
+    width: 200px;
+    position: relative;
+    left: 78%;
+    word-spacing: 8px;
+    font: normal 8px/10px "Open Sans", Arial, sans-serif;
+    line-height: 18px;
+}
+.legendtext1 {
+    bottom: 655px;
+    position: relative;
+    width: 150px;
+    left: 79%;
+    font: normal 9px/26px "Open Sans", Arial, sans-serif;
+    word-spacing: 10px;
+   
+}
+.legendtitle {
+    bottom: 114%;
+    position: relative;
+    width: 150px;
+    left: 78%;
+    font: bold 9px/10px "Open Sans", Arial, sans-serif;
+}
+.legendtitle1 {
+    bottom: 99%;
+    width: 150px;
+    position: relative;
+    left: 78%;
+    font: bold 9px/10px "Open Sans", Arial, sans-serif;
+}
+.fl {
+    width: 320px;
+    height: 1px;
+    background: #f6f6f600;
+    border-radius: 4px;
+    position: absolute;
+    top: 405px;
+    left: 30px;
+    z-index: 2;
+}
