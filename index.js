@@ -163,18 +163,18 @@ $(document).ready(function() {
         "Yasothon":4,
 
     }
-    // Select the path element with id "surin"
+    // Select the path element with id
     $('.province').on('click', function() {
-        // Set the text of the element with id "displayName" to "Surin"
+        // Set the text of the element with id "displayName"
         var province = $(this).attr('name');
         $('.displayName').text(province);
         console.log(dens[province])
         $('.displaydens').text(dens[province]);
         $('.displaydens1').text(dens1[province]);
     })
-        // Select the path element with id "surin"
+
     $('.reclegend').on('click', function() {
-        // Set the text of the element with id "displayName" to "Surin"
+        // Set the text of the element with id "displayName"
         var reclegend = $(this).attr('name');
         $('.displayName').text(reclegend);
 });});
